@@ -127,7 +127,7 @@ export default function Home() {
 						alt="about"
 					/>
 					<ul className="flex flex-col gap-4 text-center">
-						<li className="text-[32px] font-bold">Token Supply:</li>
+						<li className="text-[32px] font-bold">Token Supply: 69,000,000</li>
 						<li className="text-[20px]">No Taxes Forever, No Nonsense</li>
 						<li className="text-[20px]">LP Tokens Burned & Contract Ownership Renounced</li>
 					</ul>
