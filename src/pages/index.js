@@ -127,7 +127,7 @@ export default function Home() {
 						alt="about"
 					/>
 					<ul className="flex flex-col gap-4 text-center">
-						<li className="text-[32px] font-bold">Token Supply: 69,000,000</li>
+						<li className="text-[32px] font-bold">Token Supply: 69,000, 000</li>
 						<li className="text-[20px]">No Taxes Forever, No Nonsense</li>
 						<li className="text-[20px]">LP Tokens Burned & Contract Ownership Renounced</li>
 					</ul>
@@ -193,10 +193,10 @@ export default function Home() {
 				<FAQ />
 				<Image
 					className={`w-[85vw] max-w-[420px] ${howToBuyIntersection && howToBuyIntersection.isIntersecting ? 'walking-right' : ''}`}
-					src="/bull.svg"
+					src="/Bull.svg"
 					width={0}
 					height={0}
-					alt="Hoppy apu"
+					alt="Hoppy bull"
 				/>
 				<BrushedBorder className="absolute bottom-0 h-6 w-full bg-[#838a3a] fill-white" />
 			</section>
