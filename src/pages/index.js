@@ -43,13 +43,13 @@ export default function Home() {
 			<Navbar />
 			<section
 				id="home"
-				className="relative flex h-[90vh] w-full flex-col lg:flex-row items-center overflow-hidden sm:h-[100vh]"
+				className="relative flex h-[90vh] w-full flex-col md:flex-row items-center overflow-hidden sm:h-[100vh]"
 			>
-        <div className='hidden lg:block lg:w-[50vw]'></div>
+        <div className='hidden md:block md:w-[50vw]'></div>
 				<div className='flex flex-col items-center px-6 pt-20'>
         <h1 className="sr-only">$Hoppy</h1>
 				<Image
-					className="w-[55vw] max-w-[690px] lg:w-[222px]"
+					className="w-[55vw] max-w-[690px] md:w-[222px]"
 					src="/hoppyCashtag.webp"
 					width={2560}
 					height={1280}
@@ -80,12 +80,12 @@ export default function Home() {
 			<section
 				id="about"
         ref={aboutSectionRef}
-				className="relative flex min-h-[90vh] w-full flex-col lg:justify-center lg:flex-row items-center overflow-hidden px-6 pt-20 sm:min-h-[100vh]"
+				className="relative flex min-h-[90vh] w-full flex-col md:justify-center md:flex-row items-center overflow-hidden px-6 pt-20 sm:min-h-[100vh]"
 			>
 				<h1 className="sr-only">About</h1>
-				<div className='flex flex-col items-center lg:max-w-[550px]'>
+				<div className='flex flex-col items-center md:max-w-[550px]'>
         <Image
-					className="relative z-10 mb-4 w-[70vw] lg:w-[330px]"
+					className="relative z-10 mb-4 w-[70vw] md:w-[330px]"
 					src="/about.webp"
 					height={500}
 					width={2000}
@@ -116,11 +116,11 @@ export default function Home() {
 			<section
 				id="tokenomics"
         ref={tokenomicsSectionRef}
-				className="relative flex min-h-[90vh] w-full flex-col lg:flex-row-reverse lg:justify-center items-center overflow-hidden px-6 pt-20 sm:min-h-[100vh]"
+				className="relative flex min-h-[90vh] w-full flex-col md:flex-row-reverse md:justify-center items-center overflow-hidden px-6 pt-20 sm:min-h-[100vh]"
 			>
 				<div className="rounded-3xl border-2 border-white bg-black/25 p-6">
 					<Image
-						className="relative z-10 mb-4 w-[70vw] lg:max-w-[420px]"
+						className="relative z-10 mb-4 w-[70vw] md:max-w-[420px]"
 						src="/tokenomics.webp"
 						height={500}
 						width={2000}
@@ -144,7 +144,7 @@ export default function Home() {
 			<section
 				id="roadmap"
         ref={roadmapSectionRef}
-				className="relative flex min-h-[90vh] w-full flex-col lg:flex-row lg:justify-center items-center px-6 pt-4 sm:min-h-[100vh]"
+				className="relative flex min-h-[90vh] w-full flex-col md:flex-row md:justify-center items-center px-6 pt-4 sm:min-h-[100vh]"
 			>
 				<Image
 					className="w-[85vw] max-w-[420px]"
@@ -155,7 +155,7 @@ export default function Home() {
 				/>
 				<div className='flex flex-col w-full items-center'>
         <Image
-					className="my-4 w-[90vw] lg:max-w-[500px]"
+					className="my-4 w-[90vw] md:max-w-[500px]"
 					src="/roadmap.webp"
 					height={500}
 					width={2000}
@@ -184,7 +184,7 @@ export default function Home() {
 				className="relative flex min-h-[90vh] w-full flex-col items-center justify-center overflow-hidden px-6 pt-4 sm:h-[100vh]"
 			>
 				<Image
-					className="relative z-10 my-4 w-[75vw] lg:max-w-[420px]"
+					className="relative z-10 my-4 w-[75vw] md:max-w-[420px]"
 					src="/howtobuy.webp"
 					height={500}
 					width={2000}

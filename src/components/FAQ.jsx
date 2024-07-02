@@ -1,6 +1,6 @@
 function FAQ() {
 	return (
-		<div className="flex w-full flex-col gap-4 tracking-tighter lg:max-w-[800px]">
+		<div className="flex w-full flex-col gap-4 tracking-tighter md:max-w-[800px]">
 			<div className="rounded-xl bg-black/25 text-white">
 				<div>
 					<details className="group peer">
