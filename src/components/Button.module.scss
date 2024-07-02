@@ -1,0 +1,63 @@
+.menuButtonTopBunOpenAnimation {
+	animation: menuButtonTopBunOpenAnimation 0.25s ease-in-out forwards;
+}
+
+.menuButtonTopBunCloseAnimation {
+	animation: menuButtonTopBunCloseAnimation 0.25s ease-in-out forwards;
+}
+
+.menuButtonBottomBunOpenAnimation {
+	animation: menuButtonBottomBunOpenAnimation 0.25s ease-in-out forwards;
+}
+
+.menuButtonBottomBunCloseAnimation {
+	animation: menuButtonBottomBunCloseAnimation 0.25s ease-in-out forwards;
+}
+
+@keyframes menuButtonTopBunOpenAnimation {
+	0% {
+		transform: translateY(0px) rotate(0);
+	}
+	50% {
+		transform: translateY(8px) rotate(0);
+	}
+	100% {
+		transform: translateY(8px) rotate(-45deg);
+	}
+}
+
+@keyframes menuButtonTopBunCloseAnimation {
+	0% {
+		transform: translateY(8px) rotate(-45deg);
+	}
+	50% {
+		transform: translateY(8px) rotate(0);
+	}
+	100% {
+		transform: translateY(0px) rotate(0);
+	}
+}
+
+@keyframes menuButtonBottomBunOpenAnimation {
+	0% {
+		transform: translateY(0px) rotate(0);
+	}
+	50% {
+		transform: translateY(-8px) rotate(0);
+	}
+	100% {
+		transform: translateY(-8px) rotate(-135deg);
+	}
+}
+
+@keyframes menuButtonBottomBunCloseAnimation {
+	0% {
+		transform: translateY(-8px) rotate(-135deg);
+	}
+	50% {
+		transform: translateY(-8px) rotate(0);
+	}
+	100% {
+		transform: translateY(0px) rotate(0);
+	}
+}
