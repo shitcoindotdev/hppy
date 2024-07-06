@@ -61,7 +61,7 @@ export default function Home() {
 				
 				<Links className="relative z-10 mb-8 mt-8 sm:mb-2" />
 			
-				<h3 className='relative z-10 underline'>
+				<h3 className='relative z-10 underline text-center'>
 					The first one always wins, buy the first $hoppy on Solana
 				</h3>
 				<p className="relative z-10 mb-8 hidden sm:block">CA: 49URzr9xiZSwR7mRUuYz8BKhzbxPKjXFGJEJEEuS6VDD</p>
