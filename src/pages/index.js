@@ -58,7 +58,12 @@ export default function Home() {
 				<h2 className="relative lg:max-w-[550px] z-10 text-center text-[20px] lg:text-[28px] font-medium">
 					is on a mission to take over the meme universe. The time has come for Hoppy to show his greatness.
 				</h2>
+				
 				<Links className="relative z-10 mb-8 mt-8 sm:mb-2" />
+			
+				<h3 className='relative z-10 underline'>
+					The first one always wins, buy the first $hoppy on Solana
+				</h3>
 				<p className="relative z-10 mb-8 hidden sm:block">CA: 49URzr9xiZSwR7mRUuYz8BKhzbxPKjXFGJEJEEuS6VDD</p>
 				<a
 					className="relative z-10 hover:bg-white/25 transition duration-300 ease-in-out rounded-full border-2 border-white bg-black/20 px-8 py-3 text-[18px] font-bold backdrop-blur-sm"
