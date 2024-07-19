@@ -6,7 +6,7 @@ export default function Document() {
 			<Head>
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
 				<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
-				<link rel="icon" type="image/svg+xml" href="/bunnyDefault.svg" />
+				<link rel="icon" type="image/svg+xml" href="/degenlogo.png" />
 			</Head>
 			<body>
 				<Main />
