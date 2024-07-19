@@ -21,11 +21,11 @@ function Navbar({ className }) {
 			<div className="relative flex w-full items-center justify-between">
 				<a href="#">
 					<Image
-						className="w-[40vw] md:h-[48px] md:w-auto"
-						src="/hoppyLogo.png"
+						className="h-10 w-auto md:h-[48px] md:w-auto"
+						src="/degenlogo.png"
 						width={2048}
 						height={585}
-						alt="hoppy logo"
+						alt="bunny logo"
 					/>
 				</a>
 				<Navlist onClick={closeMenu} className={`hidden text-[22px] lg:flex`} />

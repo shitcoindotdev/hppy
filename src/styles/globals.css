@@ -11,8 +11,9 @@
 	scroll-behavior: smooth;
 }
 
-body {
-	background-color: #838a3a;
+body,
+.bgGradient {
+	background: linear-gradient(to right, rgb(222, 122, 161), rgb(122, 0, 122));
 }
 
 /* @layer utilities {
