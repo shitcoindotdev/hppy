@@ -53,10 +53,12 @@ export default function Home() {
 						TO A BILLION
 					</h2>
 					<Links />
-					<p className="relative z-10 mb-8 hidden sm:block">CA: tokenaddress</p>
+					<p className="relative z-10 mb-8 hidden sm:block">
+						CA: 7nvmhwvibYQiCjomhNQoPkwkkwi4pk3LixasBUX5jPVe
+					</p>
 					<a
 						className="relative z-10 rounded-full border-2 border-white bg-black/20 px-8 py-3 text-[18px] font-bold backdrop-blur-sm transition duration-300 ease-in-out hover:bg-white/25"
-						href="https://www.degen.fund/AQEL43o53yDsuM9XsgHies1CYiiPfPGs4rhnSWDqJGoB"
+						href="https://www.degen.fund/7nvmhwvibYQiCjomhNQoPkwkkwi4pk3LixasBUX5jPVe"
 						target="_blank"
 					>
 						Buy $Bill
