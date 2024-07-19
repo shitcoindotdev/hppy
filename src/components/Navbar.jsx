@@ -25,7 +25,7 @@ function Navbar({ className }) {
 						src="/degenlogo.png"
 						width={2048}
 						height={585}
-						alt="bunny logo"
+						alt="Bill logo"
 					/>
 				</a>
 				<Navlist onClick={closeMenu} className={`hidden text-[22px] lg:flex`} />

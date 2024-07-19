@@ -46,21 +46,20 @@ export default function Home() {
 			>
 				<div className="hidden md:block md:w-[50vw]"></div>
 				<div className="flex flex-col items-center px-6 pt-20">
-					<h1 className="text-[48px] font-extrabold">$Bunny</h1>
+					<h1 className="text-[48px] font-extrabold">$Bill</h1>
 
 					<h2 className="relative z-10 text-center text-[20px] font-medium lg:max-w-[550px] lg:text-[28px]">
-						is celebrating the DegenV2 Launch. He just woke up and is ready to gamble his live savings. Moon
-						or Dust, Degen forever.
+						is celebrating the DegenV2 Launch. He just woke up and is ready to gamble his live savings. BILL
+						TO A BILLION
 					</h2>
-
-					<Links className="relative z-10 mb-8 mt-8 sm:mb-2" />
+					<Links />
 					<p className="relative z-10 mb-8 hidden sm:block">CA: tokenaddress</p>
 					<a
 						className="relative z-10 rounded-full border-2 border-white bg-black/20 px-8 py-3 text-[18px] font-bold backdrop-blur-sm transition duration-300 ease-in-out hover:bg-white/25"
 						href="https://www.degen.fund/AQEL43o53yDsuM9XsgHies1CYiiPfPGs4rhnSWDqJGoB"
 						target="_blank"
 					>
-						Buy $Bunny
+						Buy $Bill
 					</a>
 				</div>
 				<Image
@@ -87,12 +86,12 @@ export default function Home() {
 						alt="about"
 					/>
 					<p className="relative z-10 text-center text-[20px] font-medium">
-						DegenBunny is the mascot of the Degen.fund platform. He is a White Purebreed Rabbit with an
+						degenbunny is the mascot of the Degen.fund platform. He is a White Purebreed Rabbit with an
 						addiction for launching new shitcoins every hour or so.
 					</p>
 					<br />
 					<p className="relative z-10 text-center text-[20px] font-medium">
-						$Bunny is the unnofficial - official community token for the degen.fund platform and unites all
+						$Bill is the unnofficial - official community token for the degen.fund platform and unites all
 						shitcoin and gamble connoisseurs
 					</p>
 				</div>
@@ -187,8 +186,8 @@ export default function Home() {
 
 				<div className="flex flex-col gap-4 text-center text-[14px]">
 					<p>
-						$bunny has no association with degen.fund. This is simply a community homage to the platform and
-						their mascot bunny.
+						$Bill has no association with degen.fund. This is simply a community homage to the platform and
+						their mascot Bill.
 					</p>
 					<p>© 2024 by Degens for Degens. All rights reserved!</p>
 				</div>
